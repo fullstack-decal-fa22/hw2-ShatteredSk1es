@@ -188,23 +188,32 @@ h2:hover {
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
-  padding: 60px;
 }
 
 /* For margin practice */
 .flag1 {
+  height: 300px;
+  width: 500px;
+  margin-bottom: 5rem;
+  border-style: solid;
+
   background-color: red;
   margin-right: 5px;
 }
 
 .flag2 {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+
   background-color: blue;
   margin-left: 5px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
-  background-color: lightblue;
   background-clip: content-box, padding-box;
+  padding: 60px;
   /* TODO */
 }
